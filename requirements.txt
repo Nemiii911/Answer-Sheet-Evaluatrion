@@ -1,0 +1,2 @@
+# Required only for live extraction and semantic rubric scoring.
+openai>=1.0.0

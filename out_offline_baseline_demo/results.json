@@ -1,0 +1,71 @@
+[
+  {
+    "question_no": 1,
+    "extracted_answer": "Photosynthesis is when green plants use sunlight and chlorophyll to make food.\nThey use carbon dioxide and water and give out oxygen.\nEquation: 6CO2 + 6H2O -> C6H12O6 + 6O2.",
+    "score": 3.0,
+    "max_marks": 3,
+    "score_vs_key": "3.0/3. Matched 3/3 rubric points fully",
+    "confidence": "medium",
+    "reason": "scored with lexical baseline, not semantic judge",
+    "needs_human_review": true,
+    "pages": [
+      1
+    ],
+    "judge_runs": [
+      3.0
+    ],
+    "judge_reason": "lexical baseline (not semantic)"
+  },
+  {
+    "question_no": 2,
+    "extracted_answer": "Arteries take blood away from the heart and veins bring it back.\nArteries have thick elastic walls but veins have thin walls.\n1. Arteries have high pressure.\n2. Veins have valves so blood does not flow backward.\nVeins normally carry deoxygenated blood, while arteries normally carry oxygenated blood.",
+    "score": 4.0,
+    "max_marks": 4,
+    "score_vs_key": "4.0/4. Matched 4/4 rubric points fully",
+    "confidence": "low",
+    "reason": "answer continues across pages; stitching may be wrong; scored with lexical baseline, not semantic judge",
+    "needs_human_review": true,
+    "pages": [
+      1,
+      2
+    ],
+    "judge_runs": [
+      4.0
+    ],
+    "judge_reason": "lexical baseline (not semantic)"
+  },
+  {
+    "question_no": 3,
+    "extracted_answer": "A body that is resting stays resting and a moving body keeps moving straight at the\nsame speed until an outside unbalanced force acts on it. A passenger moves forward when\na bus stops suddenly.",
+    "score": 1.0,
+    "max_marks": 3,
+    "score_vs_key": "1.0/3. Matched 1/3 rubric points fully. Missing: Object at rest stays at rest / in motion stays in uniform straight-line motion | A valid everyday example of inertia",
+    "confidence": "medium",
+    "reason": "scored with lexical baseline, not semantic judge; crossed-out text ignored",
+    "needs_human_review": true,
+    "pages": [
+      2
+    ],
+    "judge_runs": [
+      1.0
+    ],
+    "judge_reason": "lexical baseline (not semantic)"
+  },
+  {
+    "question_no": 4,
+    "extracted_answer": "Water is heated by the sun and evaporates. The vapour cools and condenses into clouds.\nIt comes back as rain and flows through rivers to the sea, so the cycle happens again.\n(diagram drawn: arrows from sea to cloud labelled evaporation, cloud to land labelled rain, river back to sea)\ntranspiration also adds water vapour from plants.",
+    "score": 2.0,
+    "max_marks": 4,
+    "score_vs_key": "2.0/4. Matched 2/4 rubric points fully. Missing: Precipitation (rain/snow/hail) | Collection/runoff/groundwater and the cycle repeats",
+    "confidence": "low",
+    "reason": "1 uncertain/illegible word(s) in OCR; score is borderline (near half marks)",
+    "needs_human_review": true,
+    "pages": [
+      2
+    ],
+    "judge_runs": [
+      2.0
+    ],
+    "judge_reason": "lexical baseline (not semantic)"
+  }
+]
